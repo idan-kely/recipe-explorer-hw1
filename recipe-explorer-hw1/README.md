@@ -1,16 +1,21 @@
-# React + Vite
+# Recipe Explorer 
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+אפליקציית React שנבנתה באמצעות **Vite** ומממשת את דפוס ה-**Master-Detail**.
+בשלב ראשוני זה, האפליקציה טוענת רשימת מתכונים מתוך קובץ JSON מקומי (`src/mockRecipes.json`) ומציגה את פרטי המתכון המלאים בלחיצה על כרטיס מהרשימה.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 מה מומש במשימות 1–2
 
-## React Compiler
+- **הצגת רשימה מקומית (משימה 1)**: הצגת רשימת מנות מתוך קובץ `mockRecipes.json` מקומי ללא קריאת API חיצונית.
+- **פירוק לרכיבים (משימה 2)**: חלוקה ל-4 קומפוננטות נפרדות (`Header`, `RecipeList`, `RecipeCard`, `RecipeDetail`).
+- **פאנל פרטים (Master-Detail)**: לחיצה על כרטיס מתכון מציגה את התמונה, הקטגוריה ואופן ההכנה בפאנל נפרד, וכוללת כפתור לסגירה ואיפוס.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+##  הוראות הרצה מקומית
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. שכפול המאגר:
+   ```bash
+   git clone https://github.com/idan-kely/recipe-explorer-hw1.git
+   cd recipe-explorer-hw1
